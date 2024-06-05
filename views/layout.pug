@@ -1,0 +1,39 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header
+      h1 Gallery Application
+    main
+      aside
+        ul
+          li
+            a(href="/") Home 
+          li
+            a(href="/Users") Users
+          li
+            a(href="/images") Images
+          li
+            a(href="/galleries") Galleries
+          li
+            a(href="/galleries/gallery_browse") Browse Gallery
+          li
+            a(href="/galleries/delete") Delete Gallery
+          li
+            a(href="/stats") Stats
+          li
+            a(href="/Users/user_add") Add User
+          li
+            a(href="/galleries/gallery_add") Add Gallery
+          li
+            a(href="/images/image_add") Add Image
+          li
+            a(href='/users/user_login') Login
+          li
+            a(href='/users/user_logout') Logout
+      .content
+        block content
+    div(class="footer")
+      p Footer

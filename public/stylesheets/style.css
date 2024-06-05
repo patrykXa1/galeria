@@ -1,0 +1,152 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+header {
+  width: 100%;
+  background-color: #0b8f02;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  padding: 20px;
+}
+
+aside {
+  width: 200px; 
+  padding: 20px;
+  background-color: #ffffff; 
+}
+
+aside ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+aside ul li {
+  margin-bottom: 10px; 
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #0b8f02;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
+}
+
+
+.form-group {
+  margin-bottom: 20px; 
+}
+
+button.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+
+button.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+a.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+a.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+
+
+.image-actions {
+  display: flex;
+  gap: 10px; 
+  margin-top: 10px; 
+}
+
+button.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+button.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+a.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+a.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+
+select.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+select.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+option {
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}

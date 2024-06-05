@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  if galleries.length
+    ul
+      each gallery in galleries
+        li
+          | #{gallery.name} 
+          form(method='POST', action='/galleries/delete')
+            input(type='hidden', name='gallery_id', value=gallery._id)
+            button.btn.btn-danger(type='submit') Delete
+  else
+    p You have no galleries.
